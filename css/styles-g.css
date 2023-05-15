@@ -1,0 +1,46 @@
+*{
+  margin: 0%;
+
+}
+.encabezado{
+    display: flex;
+    position: fixed; 
+    justify-content: center;
+    background: white;
+    width: 100%;
+    z-index: 99;
+}
+
+.check{
+    display: none;
+    margin: 5px;
+    justify-content: left;
+    z-index: 99;
+    cursor: pointer;
+
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+
+    
+}
+ul{
+    padding-bottom: 20px;
+   justify-content: center;
+   align-self: none;
+   
+}
+
+
+a{
+    color: black ;
+    text-decoration: none;
+ 
+}
+

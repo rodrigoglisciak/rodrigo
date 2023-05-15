@@ -1,0 +1,12 @@
+#Trabajos{
+    background: darkblue;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.traba{
+   display: flex;
+    padding: 20%;
+   
+}

@@ -1,0 +1,115 @@
+/* GRILLA DE SOBREMI  */
+
+
+
+#SobreMi{
+width: 200vh;
+height: auto;
+margin: 20px auto;
+border: 1px solid goldenrod;
+flex: flex;
+flex-wrap: wrap;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(2, 400px 1fr);
+    grid-template-rows: repeat(4, 150px);
+    grid-auto-columns: repeat(3, 90vh) ;
+    grid-auto-flow: column ;
+    grid-template-areas: 
+    
+    
+    'containeruno containeruno containerdos containerdos'
+    
+    'containeruno containeruno containerdos containerdos'
+     
+    'containeruno containeruno containertres containertres'
+
+    'containeruno containeruno containertres containertres'
+    
+    ;
+}
+
+
+.containeruno{
+        grid-area: containeruno;
+        border: 1px solid black;
+        margin: 12px 50px;
+        padding: 30px;
+        
+       
+
+
+}
+
+.containerdos{
+    grid-area:containerdos;
+    border: 1px solid black;
+    margin: 12px 50px;
+    padding: 30px;
+}
+
+
+
+.containertres{
+    grid-area:containertres ;
+    border: 1px solid black;
+    margin: 12px 50px;
+    padding: 30px;
+}
+
+
+/* ESTILOS DE FLEX */
+
+.tituloT{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.parra01{
+     
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
+.titulosH{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.iconsCenter01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.titulosX{
+
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.iconsCenter02{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+
+
+}
+
+
+
+  

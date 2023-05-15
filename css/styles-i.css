@@ -1,0 +1,30 @@
+#inicio{
+    
+    background: darkslategrey;
+    margin: 0 ;
+    height: 100vh;
+    
+}   
+    
+.titulo{
+    display: flex;
+    position: relative;
+    top: 25%;
+    justify-content: center;
+    
+    
+ 
+}
+
+img{
+    display: flex;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    margin:auto;
+    margin-top: 17%;
+ 
+   
+}
+
