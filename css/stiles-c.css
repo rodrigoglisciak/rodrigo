@@ -7,7 +7,21 @@
 
 .containerContacto{
     
+    display: flex;
+    position: relative;
+    top: 80px;
+    justify-content: center;
 
   
 
+}
+
+.tittleForm{
+    display: flex;
+    justify-content: center;
+}
+
+.contactoItems{
+
+    margin: 10px;
 }
