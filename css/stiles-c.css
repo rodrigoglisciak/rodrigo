@@ -7,10 +7,10 @@
 
 .containerContacto{
     
-    display: flex;
     position: relative;
-    top: 80px;
+    top: 110px;
     justify-content: center;
+    align-self: center;
 
   
 
@@ -23,5 +23,27 @@
 
 .contactoItems{
 
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    padding: 20px;
+}
+
+input{
+    width: 90%;
+    height: 20px;
+    background:rgb(59, 59, 122) ;
+    color: aliceblue;
+}
+
+.inputMenssejer{
+
+
+    display: flex;
+    height: 250px;
+    margin: 0;
+
+
+
 }
