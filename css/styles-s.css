@@ -6,7 +6,7 @@
 width: 200vh;
 height: auto;
 margin: 20px auto;
-border: 1px solid goldenrod;
+
 flex: flex;
 flex-wrap: wrap;
 }
@@ -34,7 +34,7 @@ flex-wrap: wrap;
 
 .containeruno{
         grid-area: containeruno;
-        border: 1px solid black;
+   
         margin: 12px 50px;
         padding: 30px;
         
@@ -45,7 +45,7 @@ flex-wrap: wrap;
 
 .containerdos{
     grid-area:containerdos;
-    border: 1px solid black;
+    
     margin: 12px 50px;
     padding: 30px;
 }
@@ -54,7 +54,7 @@ flex-wrap: wrap;
 
 .containertres{
     grid-area:containertres ;
-    border: 1px solid black;
+    
     margin: 12px 50px;
     padding: 30px;
 }
@@ -66,6 +66,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin: 5px;
+    padding-top: 130px;
 }
 
 
@@ -74,6 +75,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin: auto;
+    padding-top: 110px;
 
 }
 
