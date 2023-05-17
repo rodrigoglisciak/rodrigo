@@ -1,12 +1,13 @@
 *{
   margin: 0%;
+  background:  rgb(31, 31, 63);
 
 }
 .encabezado{
     display: flex;
     position: fixed; 
     justify-content: center;
-    background: white;
+  
     width: 100%;
     z-index: 99;
 }
